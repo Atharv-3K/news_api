@@ -1,0 +1,67 @@
+.custom-navbar {
+    background-color: #343a40;
+    padding: 0.5rem 1rem;
+  }
+  
+  .custom-badge {
+    background-color: red;
+    color: black;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+  }
+  
+  .custom-filter-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 50px; /* More rounded corners */
+    margin-left: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-filter-button:hover {
+    background-color: darkblue;
+    transform: scale(1.05);
+  }
+  
+  .date-time {
+    color: orange;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border: 1px solid orange;
+    border-radius: 0.25rem;
+    margin-left: 1rem;
+    cursor: default;
+  }
+  
+  .date-time.custom-date-time {
+    background-color: #343a40;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .date-time.custom-date-time:hover {
+    color: #ffffff;
+    background-color: orange;
+  }
+  
+  .ms-auto {
+    margin-left: auto !important;
+  }
+  
+  .text-light {
+    color: white !important;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-brand .badge {
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+  }
+  

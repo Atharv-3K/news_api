@@ -1,0 +1,39 @@
+/* Card Styling */
+.news-card {
+    background-color: #212529; /* Dark background */
+    color: #f8f9fa; /* Light text */
+    border: none; /* Remove default border */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+    max-width: 345px;
+  }
+  
+  .news-card:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* More pronounced shadow on hover */
+  }
+  
+  /* Image Styling */
+  .news-card-img {
+    border-top-left-radius: 15px; /* Rounded corners for the image */
+    border-top-right-radius: 15px;
+    object-fit: cover; /* Ensure image covers the card */
+    height: 200px; /* Fixed height for the image */
+  }
+  
+  /* Button Styling */
+  .news-card-btn {
+    background: linear-gradient(135deg, #007bff, #0056b3); /* Gradient background */
+    color: #fff; /* White text */
+    border: none; /* No border */
+    padding: 0.5em 1em; /* Padding */
+    border-radius: 30px; /* Rounded corners */
+    transition: background 0.3s ease; /* Smooth background transition */
+  }
+  
+  .news-card-btn:hover {
+    background: linear-gradient(135deg, #0056b3, #004085); /* Darker gradient on hover */
+    color: #fff;
+  }
+  
