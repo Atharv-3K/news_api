@@ -1,39 +1,34 @@
-/* Card Styling */
 .news-card {
-    background-color: #212529; /* Dark background */
-    color: #f8f9fa; /* Light text */
-    border: none; /* Remove default border */
-    border-radius: 15px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
-    max-width: 345px;
+    width: 30%; /* Adjust the width of each news card */
+    margin: 0.5rem; /* Add some margin around each news card */
+    border-radius: 10px; /* Add rounded corners to the news cards */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
   }
   
-  .news-card:hover {
-    transform: scale(1.05); /* Slightly enlarge on hover */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* More pronounced shadow on hover */
-  }
-  
-  /* Image Styling */
   .news-card-img {
-    border-top-left-radius: 15px; /* Rounded corners for the image */
-    border-top-right-radius: 15px;
-    object-fit: cover; /* Ensure image covers the card */
-    height: 200px; /* Fixed height for the image */
+    height: 200px; /* Adjust the height of the news card image */
+    object-fit: cover; /* Make sure the image covers the entire space */
+    border-top-left-radius: 10px; /* Ensure rounded corners for the image */
+    border-top-right-radius: 10px; /* Ensure rounded corners for the image */
   }
   
-  /* Button Styling */
+  .news-card .card-body {
+    padding: 1rem; /* Add some padding inside the card body */
+  }
+  
   .news-card-btn {
-    background: linear-gradient(135deg, #007bff, #0056b3); /* Gradient background */
-    color: #fff; /* White text */
-    border: none; /* No border */
-    padding: 0.5em 1em; /* Padding */
-    border-radius: 30px; /* Rounded corners */
-    transition: background 0.3s ease; /* Smooth background transition */
+    background-color: #007bff; /* Change button background color */
+    color: #fff; /* Change button text color */
+    border: none; /* Remove button border */
   }
   
   .news-card-btn:hover {
-    background: linear-gradient(135deg, #0056b3, #004085); /* Darker gradient on hover */
-    color: #fff;
+    background-color: #0056b3; /* Change button background color on hover */
+  }
+  
+  @media (max-width: 768px) {
+    .news-card {
+      width: 45%; /* Adjust the width of each news card for smaller screens */
+    }
   }
   
