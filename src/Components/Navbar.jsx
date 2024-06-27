@@ -1,3 +1,4 @@
+// Navbar.js
 import React, { useEffect, useState } from 'react';
 import './Navbar.css'; // Importing your custom CSS
 
@@ -98,7 +99,36 @@ const Navbar = ({ setCategory, setCountry }) => {
             {selectedCategory}
           </button>
           <ul className="dropdown-menu dropdown-menu-dark" aria-labelledby="categoryDropdown">
-            {/* Menu items for selecting categories */}
+            <li>
+              <a className="dropdown-item" href="#" onClick={() => handleCategorySelect('Technology')}>
+                Technology
+              </a>
+            </li>
+            <li>
+              <a className="dropdown-item" href="#" onClick={() => handleCategorySelect('Business')}>
+                Business
+              </a>
+            </li>
+            <li>
+              <a className="dropdown-item" href="#" onClick={() => handleCategorySelect('Health')}>
+                Health
+              </a>
+            </li>
+            <li>
+              <a className="dropdown-item" href="#" onClick={() => handleCategorySelect('Science')}>
+                Science
+              </a>
+            </li>
+            <li>
+              <a className="dropdown-item" href="#" onClick={() => handleCategorySelect('Sports')}>
+                Sports
+              </a>
+            </li>
+            <li>
+              <a className="dropdown-item" href="#" onClick={() => handleCategorySelect('Entertainment')}>
+                Entertainment
+              </a>
+            </li>
           </ul>
         </div>
         <div className="dropdown">
